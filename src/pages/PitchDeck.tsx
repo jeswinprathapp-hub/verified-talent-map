@@ -25,12 +25,12 @@ const PitchDeck = () => (
           <Shield className="h-10 w-10 text-primary" />
           <span className="font-display text-3xl font-bold text-gradient">HireFlow AI</span>
         </div>
-        <h1 className="font-display text-4xl md:text-6xl font-bold max-w-3xl mx-auto leading-tight">
-          Resumes are broken.<br />
-          <span className="text-gradient">We fix hiring with AI.</span>
+        <h1 className="font-display text-3xl md:text-5xl font-bold max-w-4xl mx-auto leading-tight">
+          <span className="text-gradient">HireFlow AI</span> analyzes skills, identifies gaps, and delivers{" "}
+          <span className="text-gradient">personalized learning paths</span> aligned with industry demands.
         </h1>
-        <p className="text-muted-foreground text-lg mt-6 max-w-xl mx-auto">
-          An AI-driven platform that analyzes skills, identifies gaps, and matches verified talent with the right opportunities.
+        <p className="text-muted-foreground text-lg mt-6 max-w-2xl mx-auto">
+          Real-time matching with relevant internships, jobs, and gigs — helping companies efficiently discover and hire skill-verified, job-ready talent.
         </p>
       </div>
     </Section>
