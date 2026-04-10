@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2">
           <Shield className="h-7 w-7 text-primary" />
-          <span className="font-display font-bold text-lg text-foreground">Skill Passport</span>
+          <span className="font-display font-bold text-lg text-foreground">HireFlow AI</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">

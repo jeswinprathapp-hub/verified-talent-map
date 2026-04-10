@@ -23,14 +23,14 @@ const PitchDeck = () => (
       <div className="container px-4 text-center">
         <div className="inline-flex items-center gap-2 mb-6">
           <Shield className="h-10 w-10 text-primary" />
-          <span className="font-display text-3xl font-bold text-gradient">Skill Passport</span>
+          <span className="font-display text-3xl font-bold text-gradient">HireFlow AI</span>
         </div>
         <h1 className="font-display text-4xl md:text-6xl font-bold max-w-3xl mx-auto leading-tight">
           Resumes are broken.<br />
-          <span className="text-gradient">We fix trust in hiring.</span>
+          <span className="text-gradient">We fix hiring with AI.</span>
         </h1>
         <p className="text-muted-foreground text-lg mt-6 max-w-xl mx-auto">
-          A verified, AI-powered skill identity platform that replaces resumes with proven performance.
+          An AI-driven platform that analyzes skills, identifies gaps, and matches verified talent with the right opportunities.
         </p>
       </div>
     </Section>
@@ -72,7 +72,7 @@ const PitchDeck = () => (
             <h2 className="font-display text-3xl font-bold">The Solution</h2>
           </div>
           <p className="text-lg text-muted-foreground mb-8">
-            Skill Passport creates a <span className="text-foreground font-semibold">verified, dynamic skill identity</span> — combining AI evaluation with company validation.
+            HireFlow AI creates a <span className="text-foreground font-semibold">verified, dynamic skill identity</span> — combining AI evaluation with company validation and personalized learning paths.
           </p>
           <div className="space-y-4">
             {[
@@ -103,10 +103,10 @@ const PitchDeck = () => (
           </div>
           <div className="grid sm:grid-cols-2 gap-6 mt-8">
             {[
-              { title: "Skill Passport", desc: "Public profile with verified scores, badges, and skill timeline" },
+              { title: "Skill Profile", desc: "Public profile with verified scores, badges, and skill timeline" },
               { title: "AI Engine", desc: "Evaluates code, files, and answers with feedback and scoring" },
               { title: "Task Marketplace", desc: "Real-world challenges from companies across ML, Web Dev, Data Science" },
-              { title: "Smart Matching", desc: "AI matches verified students to internships and jobs" },
+              { title: "Smart Matching", desc: "Real-time matching of verified talent to internships, jobs, and gigs" },
             ].map((item) => (
               <div key={item.title} className="glass rounded-xl p-5">
                 <h3 className="font-display font-semibold text-primary">{item.title}</h3>
@@ -174,7 +174,7 @@ const PitchDeck = () => (
           <div className="mt-12">
             <p className="text-lg text-muted-foreground mb-4">Ready to fix hiring?</p>
             <div className="flex items-center justify-center gap-2 text-primary font-display font-semibold text-xl">
-              <Shield className="h-6 w-6" /> skillpassport.io <ArrowRight className="h-5 w-5" />
+              <Shield className="h-6 w-6" /> hireflow.ai <ArrowRight className="h-5 w-5" />
             </div>
           </div>
         </div>
