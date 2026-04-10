@@ -82,7 +82,7 @@ const PassportDemo = () => (
               </div>
 
               <Button className="w-full mt-4 gap-2" size="sm">
-                <ExternalLink className="h-3.5 w-3.5" /> Share Passport
+                <ExternalLink className="h-3.5 w-3.5" /> Share Profile
               </Button>
             </div>
           </div>
@@ -144,7 +144,7 @@ const PassportDemo = () => (
                 { date: "Mar 2026", event: "Python verified by DataCorp", type: "verified" },
                 { date: "Feb 2026", event: "Completed ML Pipeline task — scored 82%", type: "task" },
                 { date: "Jan 2026", event: "React verified by TechStart", type: "verified" },
-                { date: "Dec 2025", event: "Joined Skill Passport", type: "joined" },
+                { date: "Dec 2025", event: "Joined HireFlow AI", type: "joined" },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
                   <div className="flex flex-col items-center">

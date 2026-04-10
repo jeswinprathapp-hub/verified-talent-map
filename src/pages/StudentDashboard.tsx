@@ -22,7 +22,7 @@ const StudentDashboard = () => (
     <div className="container px-4 pt-24 pb-16">
       <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
         <h1 className="font-display text-2xl font-bold">Welcome back, Alex</h1>
-        <p className="text-muted-foreground text-sm mt-1">Your skill passport is 87% complete</p>
+        <p className="text-muted-foreground text-sm mt-1">Your skill profile is 87% complete</p>
       </motion.div>
 
       <div className="grid lg:grid-cols-3 gap-6">

@@ -20,7 +20,7 @@ const FeaturesSection = () => (
         className="text-center mb-16"
       >
         <h2 className="font-display text-3xl md:text-4xl font-bold">How it works</h2>
-        <p className="text-muted-foreground mt-3 max-w-xl mx-auto">A trust layer between students and employers, powered by AI and verified by real companies.</p>
+        <p className="text-muted-foreground mt-3 max-w-xl mx-auto">AI-powered skill analysis, gap identification, and real-time talent matching — verified by real companies.</p>
       </motion.div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

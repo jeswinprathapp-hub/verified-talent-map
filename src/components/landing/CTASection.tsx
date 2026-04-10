@@ -16,7 +16,7 @@ const CTASection = () => (
           Ready to build your <span className="text-gradient">verified skill identity</span>?
         </h2>
         <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
-          Join thousands of students proving their skills through real work, not paper credentials.
+          Join thousands of students proving their skills through real work — matched to opportunities that fit.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
           <Link to="/passport/demo">

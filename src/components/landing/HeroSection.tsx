@@ -33,8 +33,8 @@ const HeroSection = () => {
           className="font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-tight max-w-4xl mx-auto"
         >
           Resumes are broken.{" "}
-          <span className="text-gradient">Skill Passport</span>{" "}
-          fixes trust.
+          <span className="text-gradient">HireFlow AI</span>{" "}
+          fixes hiring.
         </motion.h1>
 
         <motion.p
@@ -43,7 +43,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.25 }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mt-6 leading-relaxed"
         >
-          A verified, dynamic skill identity. Students prove skills through real tasks. Companies hire based on actual performance.
+          An AI-driven platform that analyzes skills, identifies gaps, and delivers personalized learning paths — matching talent with the right opportunities in real time.
         </motion.p>
 
         <motion.div
